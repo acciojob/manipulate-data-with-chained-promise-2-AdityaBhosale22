@@ -9,7 +9,7 @@ function magic(){
 			resolve(filtered);
 		},1000)
 	})
-	.then((filteredArray)=>{
+	.then((filteredData)=>{
 		return new Promise((resolve)=>{
 			setTimeout(() => {
                 const multiplied = filteredData.map(num => num * 2);
